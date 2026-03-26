@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="/action">
+        <div>
+            <label for="username">Enter Username:</lebel>
+            <input 
+                id="username" 
+                type="text" 
+                placeholder="Username"
+                name="user"
+            />
+        </div>
+        <div>
+            <label for="password">Enter Password:</label>
+            <input 
+                id="password" 
+                type="password" 
+                placeholder="Password"
+                name="pass"
+            />
+        </div>
+        <button >Submit</button>
+    </form>
+    <hr>
+
+
+    <form action="/server">
+        <fieldset>
+           <legend>Please Enter You are below 18 or not</legend>
+           <input type="checkbox" id="age" name="age" />
+           <label for="age">I am 18+</label>
+           <button>Submit</button>
+       </fieldset>
+    </form>
+
+    <form action="/server">
+
+        <div>
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">Apple</label>
+
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango">Mango</label>
+
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana">Banana</label>
+        <button>Submit</button>
+    </div>
+    <br>
+    <div>
+        Chooce your subjects:
+        <input type="checkbox" id="math" name="subjects" value="math"/>
+        <label for="math">Math</label>
+
+        <input type="checkbox" id="science"name="subjects" value="science"/>
+        <label for="science">science</label>
+
+        <input type="checkbox" id="english" name="subjects" value="english"/>
+        <label for="english">English</label>
+
+    </div>
+
+    <div>
+        Choose your profession
+        <select name="profession" id="profession">
+            <option >Select your option</option>
+            <option value="stu" selected>Student</option>
+            <option value="dev" selected>Developer</option>
+
+        </select>
+    </div>
+
+    <br>
+    <br>
+
+    <input type="range"  min="0" max="100" name="vol" step="10" value="70"/>
+    <label for="vol">Volumn</label>
+
+    <br>
+    <br>
+    <label for="feedback"> Please Give your valuable feedback:</label>
+    <textarea name="feedback" id="feedback" rows="5" cols="200"></textarea>
+
+    </form>
+    
+</body>
+</html>

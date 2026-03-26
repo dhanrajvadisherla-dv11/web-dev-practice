@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    font-family: papyrus;
+}
+
+h1 {
+    text-align: center;
+    font-family: arial;
+    text-decoration: wavy red underline;
+}
+
+h2 {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+
+    font-weight: 666;
+
+    text-decoration:  red wavy dashed overline;
+    
+}
+
+.content {
+    position: relative;
+}
+
+
+
+div{
+    font-weight: bold;
+}
+ p {
+
+    line-height: 200%;
+    font-weight: 333;
+    letter-spacing: 2px;
+
+
+    font-family: monospaced;
+}
